@@ -1,7 +1,9 @@
 <div align="center">
-  <picture>
-    <img src="https://robloxpro.academy/img/social-card.png" alt="Roblox Pro Academy Logo" width="200"/>
-  </picture>
+  <a href="https://robloxpro.academy/" target="_blank">
+    <picture>
+      <img src="https://robloxpro.academy/img/social-card.png" alt="Roblox Pro Academy Logo" width="200"/>
+    </picture>
+  </a>
 </div>
 
 # Monster Generation System - Roblox Studio Setup Guide
