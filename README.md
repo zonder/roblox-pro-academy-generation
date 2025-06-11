@@ -30,7 +30,7 @@ Place server-side scripts here:
 
 ```
 ServerScriptService/
-└── MeshGenerationServer.luau (Script)
+└── MeshGenerationServer.luau (Script), run context should be set to Server
 ```
 
 **Contents:** Handles client requests for mesh generation and communicates with GenerationService.
@@ -61,7 +61,7 @@ Workspace/
 └── MonsterStand/ (Part or Model)
     ├── PromptParent/ (Part)
     │   └── ProximityPrompt (ProximityPrompt)
-    └── MonsterGeneratorStand.luau (LocalScript)
+    └── MonsterGeneratorStand.luau (Script), run context should be set to Client
 ```
 
 ## Setting up a Monster Generation Stand
@@ -157,9 +157,8 @@ The system includes predefined monster part assets. If you want to customize par
 - Unique ScreenGui names prevent conflicts
 - Instance-specific effect handling
 
-## Customization
+## Learn More
 
-- **Part Assets**: Modify `PART_OPTIONS` in MonsterGenerator.luau
-- **UI Styling**: Adjust colors and positioning in PartSelectorUI.luau
-- **Effects**: Customize visual effects in MonsterGenerationEffectHandler.luau
-- **Stand Appearance**: Design custom stand models while maintaining the script hierarchy 
+Want to master Roblox development with comprehensive courses and hands-on practice? Check out **[Roblox Pro Academy](https://robloxpro.academy/)** for more in-depth tutorials, interactive learning experiences, and a complete curriculum that takes you from beginner to pro developer!
+
+🎮 **Build Your Dreams** - Watch videos, read guides, and practice in our custom Roblox world alongside thousands of other developers building amazing games.

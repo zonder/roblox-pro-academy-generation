@@ -3,11 +3,11 @@ PartSelectorUI.__index = PartSelectorUI
 
 -- Constants
 local COLORS = {
-	BACKGROUND = Color3.fromRGB(80, 80, 80),
+	BACKGROUND = Color3.fromRGB(60, 39, 15),
 	GENERATE_BUTTON = Color3.fromRGB(100, 200, 100),
 	TEXT = Color3.fromRGB(220, 220, 220),
 	WHITE = Color3.new(1, 1, 1),
-	PREVIEW_BACKGROUND = Color3.fromRGB(50, 50, 50),
+	PREVIEW_BACKGROUND = Color3.fromRGB(60, 39, 15),
 	PREVIEW_GLOW = Color3.fromRGB(0, 255, 255)
 }
 
