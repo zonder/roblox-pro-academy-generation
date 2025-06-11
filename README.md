@@ -1,7 +1,5 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://robloxpro.academy/img/logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://robloxpro.academy/img/logo.png">
     <img src="https://robloxpro.academy/img/social-card.png" alt="Roblox Pro Academy Logo" width="200"/>
   </picture>
 </div>
